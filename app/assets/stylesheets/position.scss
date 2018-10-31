@@ -53,9 +53,15 @@ $green-change: 15%;
   text-align: center;
 }
 
-.playbook-spacing-column {
+.playbook-spacing-outer-column {
   float: left;
-  width: 4%;
+  width: 6%;
+  height: 100pt;
+}
+
+.playbook-spacing-inner-column {
+  float: left;
+  width: 8%;
   height: 100pt;
 }
 
@@ -71,4 +77,8 @@ $green-change: 15%;
   text-align: center;
   padding: 15pt 0pt;
   text-decoration: underline;
+}
+
+.stats-cushion {
+  padding: 0pt 60pt;
 }
