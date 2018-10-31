@@ -6,6 +6,8 @@ $white: #FFFFFF;
 $brown: #57491d;
 $lighter-brown: #8e562e;
 $green: #4f7123;
+$green-stat: #9db26c;
+$red-stat: #C00000;
 
 $darkness-change-partial: 20%;
 $darkness-change: 40%;
@@ -25,17 +27,27 @@ $green-change: 15%;
   font-size: 16pt;
 }
 
-.green {
+.green-background {
   background-color: $green;
   color: $white;
 }
 
-.green:hover {
+.green-background:hover {
   background-color: darken($green, $green-change-partial);
 }
 
-.green:active {
+.green-background:active {
   background-color: darken($green, $green-change);
+}
+
+.green-stat {
+  color: $green-stat;
+  display: inline-block;
+}
+
+.red-stat {
+  color: $red-stat;
+  display: inline-block;
 }
 
 .masked-panel {
