@@ -3,6 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 $black: #000000;
 $white: #FFFFFF;
+$brown: #57491d;
+$lighter-brown: #8e562e;
 
 $darkness-change-partial: 20%;
 $darkness-change: 40%;
@@ -58,7 +60,7 @@ body {
 #mission {
   float: left;
   padding: 0pt 30pt 0pt 100pt;
-  font-size: 26pt;
+  font-size: 36pt;
   font-weight: bold;
 }
 
@@ -74,24 +76,47 @@ body {
 .main-page-column {
   float: left;
   width: 33%;
+  text-align: center;
 }
 
 #play-svg {
   padding-top: 50pt;
+  padding-left: 20pt;
 }
 
 #huddle-svg {
-  padding-top: 17pt;
-  padding-bottom: 33pt;
+  padding-top: 31pt;
+  padding-bottom: 44pt;
+  padding-left: 65pt;
 }
 
 #catch-svg {
   padding-top: 10pt;
   padding-bottom: 40pt;
+  padding-left: 20pt;
 }
 
 #mission-bar-right-side-spacing {
   width: 100pt;
   height: 30pt;
   float: right;
+}
+
+.section-title {
+  display: inline-block;
+  background-color: $lighter-brown;
+  border-radius: 10pt;
+  border-color: $black;
+  border-style: solid;
+  border-width: 2pt;
+  font-size: 26pt;
+  color: $white;
+  padding: 10pt;
+}
+
+.section-description {
+  display: inline-block;
+  font-style: italic;
+  width: 80%;
+  padding-top: 15pt;
 }
