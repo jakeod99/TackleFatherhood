@@ -1,0 +1,26 @@
+(function($) {
+
+    window.render = {
+
+        renderAll: function () {
+            window.render.banner();
+        },
+
+        banner: function() {
+            $('.main-banner').html(
+                `<div class="banner header horizontal-bar">
+                    🏈 Tackle Fatherhood 🏈
+                    <a class="bar-option">Position</a>
+                    <a class="bar-option">Huddle</a>
+                    <a class="bar-option">Play Book</a>
+                </div>`
+            );
+        }
+
+    };
+
+})(jQuery);
+
+jQuery(window.render.renderAll);
+
+$(document).on('turbolinks:load', window.render.renderAll);

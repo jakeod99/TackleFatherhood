@@ -1,3 +1,72 @@
 // Place all the styles related to the Main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$black: #000000;
+$white: #FFFFFF;
+
+$darkness-change-partial: 20%;
+$darkness-change: 40%;
+
+body {
+  display: block;
+  margin: 0;
+  font-size: 16pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: $black;
+  background-color: $white;
+}
+
+.banner {
+  font-size: 32pt;
+  color: $white;
+  background-color: $black;
+  width: 100%;
+  padding: 5pt 0pt;
+}
+
+.center {
+  display: table;
+  margin: 0 auto;
+}
+
+.horizontal-bar {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  white-space: nowrap;
+  position: relative;
+}
+
+.bar-option {
+  font-size: 26pt;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 6pt 50pt;
+  float: right;
+  text-decoration: none;
+}
+
+.bar-option:hover {
+  background-color: lighten($black, $darkness-change-partial);
+  cursor: pointer;
+}
+
+.bar-option:active {
+  background-color: lighten($black, $darkness-change);
+  cursor: pointer;
+}
+
+#mission {
+  float: left;
+  padding: 0pt 25pt;
+  font-size: 26pt;
+  font-weight: bold;
+}
+
+#mission-bar {
+  border-style: none none dashed none;
+  padding: 20pt 0pt;
+}
+
+.text-box {
+  white-space: normal;
+}
