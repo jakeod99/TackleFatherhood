@@ -1,3 +1,51 @@
 // Place all the styles related to the Playbook controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$black: #000000;
+$white: #FFFFFF;
+$brown: #57491d;
+$lighter-brown: #8e562e;
+$green: #4f7123;
+$green-stat: #9db26c;
+$red-stat: #C00000;
+
+$darkness-change-partial: 20%;
+$darkness-change: 40%;
+
+$green-change-partial: 7.5%;
+$green-change: 15%;
+
+.grid-container {
+  width: 93.8%;
+  display: inline-grid;
+  grid-gap: 20pt 40pt;
+  padding: 25pt 35pt;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  //padding: 10pt;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid-item-title {
+  background-color: $green;
+  color: $white;
+  border-bottom-style: dashed;
+  border-bottom-color: $white;
+  border-radius: 10pt 10pt 0pt 0pt;
+  font-size: 20pt;
+  text-align: center;
+  padding: 10pt;
+}
+
+.grid-item-content {
+  background-color: lighten($green, $green-change-partial);
+  border-radius: 0pt 0pt 10pt 10pt;
+  color: $white;
+  padding: 5pt 15pt;
+  font-style: italic;
+  text-align: left;
+  height: 130pt;
+}
