@@ -57,16 +57,41 @@ body {
 
 #mission {
   float: left;
-  padding: 0pt 25pt;
+  padding: 0pt 30pt 0pt 100pt;
   font-size: 26pt;
   font-weight: bold;
 }
 
 #mission-bar {
   border-style: none none dashed none;
-  padding: 20pt 0pt;
+  padding: 30pt 0pt;
 }
 
 .text-box {
   white-space: normal;
+}
+
+.main-page-column {
+  float: left;
+  width: 33%;
+}
+
+#play-svg {
+  padding-top: 50pt;
+}
+
+#huddle-svg {
+  padding-top: 17pt;
+  padding-bottom: 33pt;
+}
+
+#catch-svg {
+  padding-top: 10pt;
+  padding-bottom: 40pt;
+}
+
+#mission-bar-right-side-spacing {
+  width: 100pt;
+  height: 30pt;
+  float: right;
 }
