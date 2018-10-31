@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get '/huddle', to: 'huddle#huddle'
   get '/position', to: 'position#position'
   get '/playbook', to: 'playbook#playbook'
   root 'main#main'
