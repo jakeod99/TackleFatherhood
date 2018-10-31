@@ -5,9 +5,13 @@ $black: #000000;
 $white: #FFFFFF;
 $brown: #57491d;
 $lighter-brown: #8e562e;
+$green: #4f7123;
 
 $darkness-change-partial: 20%;
 $darkness-change: 40%;
+
+$green-change-partial: 7.5%;
+$green-change: 15%;
 
 body {
   display: block;
@@ -45,6 +49,7 @@ body {
   padding: 6pt 50pt;
   float: right;
   text-decoration: none;
+  color: $white;
 }
 
 .bar-option:hover {
@@ -112,6 +117,8 @@ body {
   font-size: 26pt;
   color: $white;
   padding: 10pt;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .section-description {
@@ -119,4 +126,11 @@ body {
   font-style: italic;
   width: 80%;
   padding-top: 15pt;
+}
+
+#title {
+  color: $white;
+  padding-left: 5pt;
+  text-decoration: none;
+  cursor: pointer;
 }

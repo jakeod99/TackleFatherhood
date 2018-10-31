@@ -1,0 +1,73 @@
+// Place all the styles related to the Position controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$black: #000000;
+$white: #FFFFFF;
+$brown: #57491d;
+$lighter-brown: #8e562e;
+$green: #4f7123;
+
+$darkness-change-partial: 20%;
+$darkness-change: 40%;
+
+$green-change-partial: 7.5%;
+$green-change: 15%;
+
+.accordion {
+  cursor: pointer;
+  padding: 18pt;
+  width: 100%;
+  border: dashed;
+  border-width: 1pt;
+  border-color: $white;
+  text-align: left;
+  transition: 0.4s;
+  font-size: 16pt;
+}
+
+.green {
+  background-color: $green;
+  color: $white;
+}
+
+.green:hover {
+  background-color: darken($green, $green-change-partial);
+}
+
+.green:active {
+  background-color: darken($green, $green-change);
+}
+
+.masked-panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.playbook-content-column {
+  float: left;
+  width: 38%;
+  text-align: center;
+}
+
+.playbook-spacing-column {
+  float: left;
+  width: 4%;
+  height: 100pt;
+}
+
+.secondary-header {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15pt;
+  border-bottom: dashed;
+}
+
+.tertiary-header {
+  width: 100%;
+  text-align: center;
+  padding: 15pt 0pt;
+  text-decoration: underline;
+}
