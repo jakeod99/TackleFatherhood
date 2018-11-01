@@ -20,6 +20,9 @@ $green-change: 15%;
   display: inline-grid;
   grid-gap: 20pt 40pt;
   padding: 25pt 35pt;
+}
+
+.play-grid {
   grid-template-columns: auto auto auto;
 }
 
@@ -47,5 +50,8 @@ $green-change: 15%;
   padding: 5pt 15pt;
   font-style: italic;
   text-align: left;
+}
+
+.grid-item-play{
   height: 130pt;
 }

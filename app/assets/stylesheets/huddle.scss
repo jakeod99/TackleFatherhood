@@ -1,3 +1,27 @@
 // Place all the styles related to the Huddle controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$black: #000000;
+$white: #FFFFFF;
+$brown: #57491d;
+$lighter-brown: #8e562e;
+$green: #4f7123;
+
+$darkness-change-partial: 20%;
+$darkness-change: 40%;
+
+$green-change-partial: 7.5%;
+$green-change: 15%;
+
+.search-container {
+  width: 100%;
+  padding: 15pt 33% 0 33%;
+}
+
+.search-box {
+  width: 33%;
+}
+
+a{
+  color: $white;
+}
